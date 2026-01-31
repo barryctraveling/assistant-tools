@@ -1,0 +1,14 @@
+{
+  "name": "memory-search",
+  "version": "1.0.0",
+  "description": "本地語意記憶搜尋 - SQLite FTS5 + TF-IDF",
+  "main": "src/index.js",
+  "scripts": {
+    "index": "node src/index.js index",
+    "search": "node src/index.js search",
+    "test": "node tests/test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}

@@ -38,6 +38,47 @@ const rwa = loadProject('rwa-tracker');
 const forex = loadProject('forex-tracker');
 const crypto = loadProject('crypto-tracker');
 const marketDashboard = loadProject('market-dashboard');
+const memorySearch = loadProject('memory-search');
+
+/**
+ * ======================
+ * 記憶搜尋
+ * ======================
+ */
+
+/**
+ * 搜尋記憶
+ * @param {string} query - 搜尋查詢
+ * @param {number} limit - 結果數量（預設 5）
+ */
+async function searchMemory(query, limit = 5) {
+  if (!memorySearch) return { error: 'Memory search module not loaded' };
+  return memorySearch.searchMemory(query, limit);
+}
+
+/**
+ * 搜尋記憶（簡報格式）
+ */
+async function searchMemoryBrief(query, limit = 3) {
+  if (!memorySearch) return '記憶搜尋模組未載入';
+  return memorySearch.searchMemoryBrief(query, limit);
+}
+
+/**
+ * 重建記憶索引
+ */
+async function rebuildMemoryIndex() {
+  if (!memorySearch) return { error: 'Memory search module not loaded' };
+  return memorySearch.rebuildIndex();
+}
+
+/**
+ * 獲取記憶索引統計
+ */
+async function getMemoryStats() {
+  if (!memorySearch) return { error: 'Memory search module not loaded' };
+  return memorySearch.getStats();
+}
 
 /**
  * ======================
@@ -480,6 +521,12 @@ module.exports = {
   getMarketReport,
   getMarketBrief,
   getFintechWorkReport,
+
+  // 記憶搜尋
+  searchMemory,
+  searchMemoryBrief,
+  rebuildMemoryIndex,
+  getMemoryStats,
 
   // 綜合
   getDailySummary,

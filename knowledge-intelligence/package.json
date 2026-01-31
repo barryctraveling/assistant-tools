@@ -1,0 +1,19 @@
+{
+  "name": "knowledge-intelligence",
+  "version": "1.0.0",
+  "description": "智能知識管理系統 - 語意搜尋、趨勢分析、知識問答",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "search": "node src/index.js search",
+    "ask": "node src/index.js ask",
+    "analyze": "node src/index.js analyze",
+    "index": "node src/index.js index",
+    "test": "node tests/run-tests.js"
+  },
+  "author": "Barry's AI Assistant",
+  "license": "PRIVATE",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "positions": {
+    "ONDS": {
+      "symbol": "ONDS",
+      "shares": 100,
+      "costBasis": 3,
+      "totalCost": 300,
+      "note": "",
+      "addedAt": "2026-01-30T17:03:20.425Z"
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "shares": 10,
+      "costBasis": 250,
+      "totalCost": 2500,
+      "note": "",
+      "addedAt": "2026-01-30T17:03:20.494Z"
+    }
+  },
+  "updatedAt": "2026-01-30T17:03:20.495Z"
+}

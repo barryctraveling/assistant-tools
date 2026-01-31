@@ -1,0 +1,25 @@
+{
+  "alerts": [
+    {
+      "id": "alert_1769792610670",
+      "symbol": "ONDS",
+      "above": 15,
+      "below": 8,
+      "note": "",
+      "enabled": true,
+      "triggered": [],
+      "createdAt": "2026-01-30T17:03:30.670Z"
+    },
+    {
+      "id": "alert_1769792610739",
+      "symbol": "TSLA",
+      "above": 500,
+      "below": 400,
+      "note": "",
+      "enabled": true,
+      "triggered": [],
+      "createdAt": "2026-01-30T17:03:30.739Z"
+    }
+  ],
+  "updatedAt": "2026-01-30T17:03:34.240Z"
+}

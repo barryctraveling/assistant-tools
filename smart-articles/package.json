@@ -1,0 +1,22 @@
+{
+  "name": "smart-articles",
+  "version": "1.0.0",
+  "description": "智慧文章收藏系統 - Barry 的個人知識管理工具",
+  "main": "collector.js",
+  "scripts": {
+    "collect": "node collector.js",
+    "test": "node tests/test-article.js",
+    "stats": "node -e \"const {KnowledgeBase} = require('./lib/knowledge'); const kb = new KnowledgeBase(); kb.load().then(() => console.log(kb.generateReport()));\""
+  },
+  "author": "Barry's AI Assistant",
+  "license": "PRIVATE",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "notion",
+    "knowledge-base",
+    "article-collector",
+    "personal-wiki"
+  ]
+}

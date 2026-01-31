@@ -1,0 +1,69 @@
+{
+  "timestamp": 1769796067413,
+  "data": {
+    "avalanche-2": {
+      "usd": 10.92,
+      "usd_market_cap": 4713504118.875102,
+      "usd_24h_change": -0.8816937981753733,
+      "twd": 344.55,
+      "twd_market_cap": 148658273131.38635,
+      "twd_24h_change": -0.5430314655460975
+    },
+    "binancecoin": {
+      "usd": 847.89,
+      "usd_market_cap": 115642705356.08865,
+      "usd_24h_change": -1.6752266919341143,
+      "twd": 26743,
+      "twd_market_cap": 3647232386970.0186,
+      "twd_24h_change": -1.262677756849383
+    },
+    "bitcoin": {
+      "usd": 82846,
+      "usd_market_cap": 1657583958975.357,
+      "usd_24h_change": -1.593732146040547,
+      "twd": 2613012,
+      "twd_market_cap": 52278212280499.88,
+      "twd_24h_change": -1.1808412779211228
+    },
+    "cardano": {
+      "usd": 0.324955,
+      "usd_market_cap": 11961737771.630882,
+      "usd_24h_change": -2.6543628229626974,
+      "twd": 10.25,
+      "twd_market_cap": 377258879155.3873,
+      "twd_24h_change": -2.2459221258588
+    },
+    "ethereum": {
+      "usd": 2709.58,
+      "usd_market_cap": 327487409826.1838,
+      "usd_24h_change": -3.9152122897182284,
+      "twd": 85462,
+      "twd_market_cap": 10328560576000.863,
+      "twd_24h_change": -3.5120618372527104
+    },
+    "polkadot": {
+      "usd": 1.69,
+      "usd_market_cap": 2803006621.0074234,
+      "usd_24h_change": -2.268005884756658,
+      "twd": 53.21,
+      "twd_market_cap": 88403470824.64217,
+      "twd_24h_change": -1.9340802319899077
+    },
+    "ripple": {
+      "usd": 1.75,
+      "usd_market_cap": 106770521418.79694,
+      "usd_24h_change": -3.442202972772521,
+      "twd": 55.28,
+      "twd_market_cap": 3367414334464.1963,
+      "twd_24h_change": -3.1122892562467
+    },
+    "solana": {
+      "usd": 116.59,
+      "usd_market_cap": 66014009287.04625,
+      "usd_24h_change": -1.037453564847064,
+      "twd": 3677.42,
+      "twd_market_cap": 2082114793904.0735,
+      "twd_24h_change": -0.6222286752134119
+    }
+  }
+}

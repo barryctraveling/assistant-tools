@@ -1,0 +1,14 @@
+{
+  "name": "market-dashboard",
+  "version": "1.0.0",
+  "description": "綜合市場儀表板 - 整合所有金融追蹤器",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "full": "node src/index.js full",
+    "quick": "node src/index.js quick",
+    "work": "node src/index.js work"
+  },
+  "author": "AI Assistant",
+  "license": "MIT"
+}
